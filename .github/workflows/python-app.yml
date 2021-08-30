@@ -30,3 +30,6 @@ jobs:
         python test.py
       env:
         PUBLIC_KEY: ${{ secrets.PUBLIC_KEY }}
+    - name: Read
+      run: |
+        cat test
